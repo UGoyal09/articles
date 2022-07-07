@@ -1,5 +1,4 @@
 import React from "react";
-import Article from "./articles";
 
 function Column(props) {
 
@@ -44,8 +43,8 @@ function Column(props) {
         
                             :
                             <>
-                                <a href={props.url}><h4 className="text-center">{title}</h4></a>
-                                <button type="button" className="btn btn-primary btn-sm btn-block" onClick={onEditHandler}>Edit</button>
+                                <a href={props.url}><h1 className="text-center">{title}</h1></a>
+                                <button type="button" className="btn btn-primary btn-sm btn-block text-center" onClick={onEditHandler}>Edit</button>
                             </>
                         }
 
